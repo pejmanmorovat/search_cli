@@ -392,47 +392,9 @@ Install w3m (if not already installed):
 
 sudo apt update
 sudo apt install w3m
-Install required Python packages:
 
-pip install requests python-dotenv
-Set up environment variables:
 
-Create a .env file in the project directory:
-GOOGLE_API_KEY=your_google_api_key
-SEARCH_ENGINE_ID=your_search_engine_id
-Usage
-Run the script:
 
-python3 w3m.py
-Enter your search query and press Enter.
-
-Choose an option:
-
-Enter a result number to open the link in w3m.
-Enter back to return to the search prompt.
-Enter quit to exit the tool.
-Example
-Enter search query (or 'quit' to exit): Python tutorials
-
-1. Real Python - Python Tutorials
-   URL: https://realpython.com/
-   Description: Learn Python programming with tutorials and examples.
-   ----------------------------------------
-
-2. Python Documentation
-   URL: https://docs.python.org/3/
-   Description: Official Python documentation and tutorials.
-   ----------------------------------------
-
-Enter result number to open in w3m (or 'back' for new search): 1
-W3M Controls
-Arrow Keys: Navigate through links
-Enter: Open a link
-Q: Quit w3m and return to the search tool
-H: Open help menu for additional commands
-Notes
-This script is designed for Unix-like systems with w3m installed.
-Ensure the Custom Search API is enabled in your Google Cloud project
 
 ## Author
 Pejman Morovat
