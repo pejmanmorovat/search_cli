@@ -19,7 +19,7 @@ This is a command-line interface (CLI) tool for performing Google Custom Search 
 1. **Clone the repository:**
     ```bash
     git clone https://github.com/pejmanmorovat/search_cli.git
-    cd google-search-cli
+    cd search_cli
     ```
 
 2. **Install the required Python packages:**
