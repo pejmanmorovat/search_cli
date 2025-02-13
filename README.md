@@ -18,7 +18,7 @@ This is a command-line interface (CLI) tool for performing Google Custom Search 
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/google-search-cli.git
+    git clone https://github.com/pejmanmorovat/search_cli.git
     cd google-search-cli
     ```
 
